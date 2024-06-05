@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from '../src/routes/App'
 import './index.css'
-import './bootstrap.min.css'
 import { Provider } from 'react-redux';
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import SignUp from './routes/SignUp'
@@ -11,6 +10,7 @@ import Login from './routes/Login';
 import PostListProvider, { ContextObj } from './store/post-list-store'
 import Generate from './routes/Generate'
 import quoteStore from './store'
+import "bootstrap/dist/css/bootstrap.min.css"
 
 
 
