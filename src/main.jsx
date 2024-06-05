@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from '../src/routes/App'
 import './index.css'
-import "bootstrap/dist/css/bootstrap.min.css"
+import './src/bootstrap.min.css'
 import { Provider } from 'react-redux';
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import SignUp from './routes/SignUp'
