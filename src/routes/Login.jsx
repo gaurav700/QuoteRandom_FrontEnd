@@ -3,7 +3,7 @@ import logo from '../assets/logo.png';
 import { loginActions } from '../store/login-signup-slice';
 import { Form } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
+import React , { useEffect } from 'react';
 export default function Login() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
