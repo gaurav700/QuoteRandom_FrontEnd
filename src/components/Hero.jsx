@@ -1,3 +1,4 @@
+import React from 'react';
 import image01 from '../assets/01.png';
 import { Link } from "react-router-dom";
 import { useDispatch } from 'react-redux';

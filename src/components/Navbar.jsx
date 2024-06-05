@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import logo from '../assets/logo.png';
 import { Link, useNavigate } from 'react-router-dom';
 import { loginActions } from '../store/login-signup-slice';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Under from './Under';
 export default function Navbar() {
   const dispatch = useDispatch();

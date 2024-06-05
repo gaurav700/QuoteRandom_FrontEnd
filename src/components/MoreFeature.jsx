@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import React, { useContext } from 'react';
 import { ContextObj } from '../store/post-list-store';
 export default function MoreFeature() {
   const { morefeature } = useContext(ContextObj);

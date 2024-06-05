@@ -84,8 +84,7 @@ import img67 from '../assets/icons8-success-96.png';
 
 
 
-import { createContext } from "react";
-import { useState } from "react";
+import React, { createContext } from "react";
 export const ContextObj = createContext();
 
 const PostListProvider = ({ children }) => {
